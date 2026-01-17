@@ -43,3 +43,4 @@ for idx, row in df_avaliacoes.iterrows():
 df_satisfacao = pd.DataFrame(avaliacoes, columns=['ID_Venda','ID_Cliente','Nota_Satisfacao','Data_Avaliacao'])
 df_satisfacao.to_csv('/content/satisfacao_clientes.csv', index=False)
 print(f"CSV gerado com sucesso: satisfacao_clientes.csv ({len(df_satisfacao)} registros)")
+
